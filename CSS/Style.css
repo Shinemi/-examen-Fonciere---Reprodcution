@@ -306,8 +306,35 @@
 
 
     /* #region section 4 */
+        #sectionBureauxALouer{
+            padding: 150px 15px;
+            max-width: 1440px;
+            margin: auto;
+            text-align: center;
+        }
 
-    /* #endregion section 4 */
+        #sectionBureauxALouer article{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            justify-content: center;
+            padding: 40px 0px 80px 0px;
+        }
+
+        #sectionBureauxALouer article img{
+            max-width: 400px;
+            padding-bottom: 20px;
+        }
+
+        #sectionBureauxALouer h3{
+            padding-bottom: 50px;
+        }
+    /* #endregion section 4 */    
+    
+    
+    /* #region section 5 */
+        
+    /* #endregion section 5 */
     
 /*  #endregion MAIN */
 
