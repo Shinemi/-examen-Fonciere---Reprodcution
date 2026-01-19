@@ -8,6 +8,7 @@
         margin: 0;
         font-family: 'Montserrat',sans-serif;
         font-size: 16px;
+        box-sizing: border-box;
     }
 
     ul{
@@ -27,16 +28,49 @@
         transition: all ease-in-out 0.2s;
     }
 
-    .lienBouton{
+    .lienBoutonBlanc{
         padding: 13px 25px;
         background-color: white;
         color: #276a7c;
+        border: solid 1px white;
+        font-weight: 500;
     }
 
-    .lienBouton:hover{
+    .lienBoutonBlanc:hover{
         background-color: #276a7c;
         color: white;
+        padding: 16px 30px;
+        font-size: 18px;
     }
+
+    .lienBoutonBleu{
+        padding: 13px 25px;
+        background-color: #276a7c;
+        color: white;
+        border: solid 1px #276a7c;
+        font-weight: 500;
+    }
+
+    .lienBoutonBleu:hover{
+        background-color: #276a7c;
+        color: white;
+        padding: 16px 30px;
+        font-size: 18px;
+    }
+
+    h1{
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 700;
+        position: relative;
+        top: -30px;
+        color: white;
+    }
+
+    .montserrat{
+        font-family: 'Montserrat',sans-serif;
+    }
+
 
 /*  #endregion GENERAL */
 
@@ -46,9 +80,9 @@
     header{
         display: flex;
         max-width: 1440px;
-        padding: 10px;
+        padding: 8px 10px;
         margin: auto;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -58,12 +92,20 @@
 
     header img{
         width: 200px;
-        padding-right: 110px;
     }
 
     header ul{
         display: flex;
-        gap: 100px;
+    }
+
+    header  nav a{
+        padding: 50px ;
+    }
+
+    header nav a:hover{
+        background-color: #276a7c;
+        color: white;
+   
     }
 
 /*  #endregion HEADER */
@@ -72,6 +114,33 @@
 
 /*  #region MAIN */
 
+    #sectionTitreReuil{
+        background-image: url(../IMG/SectionTitreRueil/bgLocaux.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 700px;
+        text-align: center;
+        display: flex;
+    }
+
+    #sectionTitreReuil div{
+        background-color: #27697CE3;
+        max-width: 600px;
+        margin: auto;
+        padding: 50px 0px;
+    }
+
+    #btnReuil{
+        font-family: 'roboto', sans-serif;
+    }
+
+    #sectionTitreReuil p{
+        padding-bottom: 50px;
+        font-size: 18px;
+        font-weight: 600;
+    }
 /*  #endregion MAIN */
 
 
