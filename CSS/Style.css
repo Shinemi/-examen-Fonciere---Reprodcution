@@ -137,33 +137,33 @@
    
     /* #region section 1 */
         #sectionTitreReuil{
-                background-image: url(../IMG/SectionTitreRueil/bgLocaux.jpg);
-                background-attachment: fixed;
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-                height: 700px;
-                text-align: center;
-                display: flex;
-            }
+            background-image: url(../IMG/SectionTitreRueil/bgLocaux.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 700px;
+            text-align: center;
+            display: flex;
+        }
 
-            #sectionTitreReuil div{
-                background-color: #27697CE3;
-                max-width: 600px;
-                margin: auto;
-                padding: 50px 0px;
-            }
+        #sectionTitreReuil div{
+            background-color: #27697CE3;
+            max-width: 600px;
+            margin: auto;
+            padding: 50px 0px;
+        }
 
-            #btnReuil{
-                font-family: 'roboto', sans-serif;
-            }
+        #btnReuil{
+            font-family: 'roboto', sans-serif;
+        }
 
-            #sectionTitreReuil p{
-                padding-bottom: 50px;
-                font-size: 18px;
-                font-weight: 600;
-                color: white;
-            }
+        #sectionTitreReuil p{
+            padding-bottom: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+        }
     /* #endregion section 1 */
 
 
@@ -333,7 +333,54 @@
     
     
     /* #region section 5 */
+        #sectionContact{
+            background-color: #859399;
+            padding: 100px 0px;
+            color: white;
+        }
+
+        #contactContent h2, #contactContent h3{
+            color: white;
+        }
+
+        #contactContent h3{
+            padding-bottom: 40px;
+        }
+
+        #contactContent{
+            max-width: 680px;
+            margin: auto;
+            padding: 0px 15px;
+        }
+
+        input[type=text]{
+            padding: 10px 18px;
+            width: -webkit-fill-available;
+            margin: 10px 0px;
+            border: 1px solid #27697C;
+        }
+
+        form div{
+            display: flex;
+            gap: 20px;
+        }
+        textarea{
+            resize: none;
+            width: 100%;
+            margin: 10px 0px;
+            padding: 10px 18px;
+            border: 1px solid #27697C;
+        }
+
+        input[type=submit]{
+            margin: 20px 0px;
+            border: 1px solid #27697C;
+            transition: all ease-in-out 0.2s;
+        }
         
+        input[type=submit]:hover{
+            transition: all ease-in-out 0.2s;
+        }
     /* #endregion section 5 */
     
 /*  #endregion MAIN */
