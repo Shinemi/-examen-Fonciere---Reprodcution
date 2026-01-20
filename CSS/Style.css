@@ -29,6 +29,7 @@
     }
 
     .lienBoutonBlanc{
+        display: inline-block;
         padding: 13px 25px;
         background-color: white;
         color: #276a7c;
@@ -39,11 +40,11 @@
     .lienBoutonBlanc:hover{
         background-color: #276a7c;
         color: white;
-        padding: 16px 30px;
-        font-size: 18px;
+        transform: scale(1.1);
     }
 
     .lienBoutonBleu{
+        display: inline-block;
         padding: 13px 25px;
         background-color: #276a7c;
         color: white;
@@ -54,8 +55,7 @@
     .lienBoutonBleu:hover{
         background-color: white;
         color: #276a7c;
-        padding: 16px 30px;
-        font-size: 18px;
+        transform: scale(1.1);
     }
 
     h1{
@@ -465,7 +465,55 @@
 
 
 /*  #region Responsive PHONE */
+    @media  screen and (max-width:720px){
+        #sectionBureauxRueil #topPart article a {
+            margin: 0px 5px;
+            display: flex;
+            width: fit-content;
+            text-align: center;
+            justify-content: center;
+        }
 
+        #sectionBureauxMeaux #contenuSection #gridPhotoMeaux {
+            display: none;
+        }
+
+        #sectionBureauxMeaux article{
+            margin: 0px;
+        }
+
+        #sectionBureauxMeaux a{
+            display: flex;
+            width: fit-content;
+            text-align: center;
+        }
+
+        #sectionBureauxMeaux #contenuSection{
+            padding: 100px 10px;
+        }
+
+        form div {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0px;
+        }
+
+        #sectionBureauxALouer article {
+            grid-template-columns: 1fr;
+        }
+
+        .lienBoutonBlanc:hover{
+            background-color: #276a7c;
+            color: white;
+            transform: scale(1.05);
+        }
+            
+        .lienBoutonBleu:hover{
+            background-color: white;
+            color: #276a7c;
+            transform: scale(1.05);
+        }
+    }    
 /*  #endregion Responsive PHONE */
 
 
