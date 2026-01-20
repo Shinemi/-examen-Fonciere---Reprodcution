@@ -322,7 +322,7 @@
         }
 
         #sectionBureauxALouer article img{
-            max-width: 400px;
+            max-width: 100%;
             padding-bottom: 20px;
         }
 
@@ -412,7 +412,53 @@
 
 
 /*  #region Responsive TABLET */
+    @media  screen and (max-width:1024px) {
+        nav ul{
+            display: none;
+        }
 
+        header #burgerMenu{
+            display: flex;
+            font-size: 20px;
+            color: #27697C;
+        }
+        
+        #sectionBureauxRueil #topPart{
+            grid-template-columns: 1fr;
+            height: 100%;
+        }
+
+        #sectionBureauxRueil #topPart article{
+            max-width: 1020px;
+            margin: 0px 15px;
+        }
+
+        #sectionBureauxRueil #topPart img{
+            margin-top: 60px;
+            height: 100%;
+        }
+
+        #sectionBureauxRueil #bottomPart {
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+
+        #sectionBureauxRueil {
+            display: grid;
+            padding: 100px 0px;
+        }
+
+        #sectionBureauxMeaux #contenuSection {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        }
+
+        #sectionTitreReuil{
+            background-attachment: local;
+        }
+
+    }
 /*  #endregion Responsive TABLET */
 
 
@@ -421,3 +467,7 @@
 /*  #region Responsive PHONE */
 
 /*  #endregion Responsive PHONE */
+
+
+
+/* fix bouton padding + ajouter menu deroulant burgermenu */
