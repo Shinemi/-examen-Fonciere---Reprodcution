@@ -438,11 +438,6 @@
             height: 100%;
         }
 
-        #sectionBureauxRueil #bottomPart {
-            grid-template-columns: 1fr;
-            gap: 40px;
-        }
-
         #sectionBureauxRueil {
             display: grid;
             padding: 100px 0px;
@@ -472,6 +467,11 @@
             width: fit-content;
             text-align: center;
             justify-content: center;
+        }
+
+        #sectionBureauxRueil #bottomPart {
+            grid-template-columns: 1fr;
+            gap: 40px;
         }
 
         #sectionBureauxMeaux #contenuSection #gridPhotoMeaux {
